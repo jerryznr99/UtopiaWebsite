@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Navigation{
+    display: flex;
+    width: 1512px;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 16px;
+    border-bottom: 1px solid var(--stone-200, #E3E3E5);
+    background: var(--stone-white, #FFF);   
+}
+
+.Left{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.ElementLogo{
+    display: flex;
+    padding: 2px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.EmptyState{
+    position: absolute;
+    display: flex;
+    width: 1512px;
+    padding: 0px 456px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: auto;
+    padding-top: 191px;
+}
+
+.Cloud2x{
+    width: 200px;
+    height: 96.696px;
+}
+
+.Content{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.Prompt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+
+    color: var(--stone-700, #404047);
+    text-align: center;
+
+    /* Header/M */
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.InsertSafeAddress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+
+    color: var(--stone-500, #73737A);
+    text-align: center;
+
+    /* Body/L/Regular */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Row{
+    display: flex;
+    width: 536px;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.FieldTagSelect{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+
+    border-radius: 4px;
+}
+
+.FormFieldAction{
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+
+    border-radius: 4px;
+    border: 1px solid var(--stone-200, #E3E3E5);
+}
+
+.SelectOption{
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+
+    color: var(--stone-500, #73737A);
+
+    /* Body/M/Regular */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.Button{
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+    border-radius: 4px;
+    background: var(--earth-700, #4C7064);
+
+    color: var(--stone-white, #FFF);
+
+    /* Body/M/Medium */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.Card{
+    display: flex;
+    width: 160px;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 12px;
+    margin-left: 1336px;
+    margin-top: 18px;
+
+    border-radius: 4px;
+    border: 1px solid var(--sea-200, #B2D8EB);
+    background: var(--sea-50, #EBF8FF);
+}
+
+.Text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
